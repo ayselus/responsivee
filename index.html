@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers</title>
+    <style>
+        html,body{
+            height: 100%;
+            box-sizing: border-box;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            height: 450px;
+        }
+        .intem{
+            display: flex;
+            margin: 20px;
+            justify-content: center;
+            
+        }
+        .intem1{
+            background: url(qizilgul.png)center/cover;
+            width: 500px;
+            height: 300px;
+            margin: 10px;
+            padding: 10px;
+            font-size: 30px;
+            color: white;
+        }
+        .intem2{
+            background: url(tulpan.png)center/cover;
+            width: 500px;
+            height: 300px;
+            margin: 10px;
+            padding: 10px;
+            font-size: 30px;
+            color: white;
+
+        }
+        .intem3{
+            background: url(lale.png)center/cover;
+            width: 500px;
+            height: 300px;
+            margin: 10px;
+            padding: 10px;
+            font-size: 30px;
+            color:white ;
+        }
+        .intem4{
+            background: url(nergiz2.png)center/cover;
+            width: 500px;
+            height: 300px;
+            margin: 10px;
+            padding: 10px;
+            font-size: 30px;
+            color: white ;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 50px;
+            color: firebrick;
+        
+        }
+        @media(max-width:800px){
+            .container{
+                flex-direction: column;
+                height: 500px;
+            }
+            .intem1{
+                background: url(qizilgul.png)center/cover;
+                height: 200px;
+            }
+            .intem2{
+                background:url(tulpan.png)center/cover;
+                height: 200px;
+
+            }
+            .intem3{
+                background: url(lale.png)center/cover;
+                height: 200px;
+            }
+            .intem4{
+                background: url(nergiz.png)center/cover;
+                height: 200px;
+            }
+        }   
+        h2{
+            text-align: center;
+            height: 5%;
+            width: 100%;
+            margin: 10px;
+            padding: 10px;
+            background-color: black;
+            color: azure;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Flowers</h1>
+    <div class="container">
+        <div class="intem1 intem">Qızılgül</div>
+        <div class="intem2 intem">Tülpan</div>
+        <div class="intem3 intem">Lale</div>
+        <div class="intem4 intem">Nergiz</div>
+    </div>
+    <h2>Design by Ayselus &copy; 2024</h2>
+</body>
+</html>
